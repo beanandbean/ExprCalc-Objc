@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA0B299182255660018A9FC /* BBExprKernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B298182255660018A9FC /* BBExprKernel.m */; };
+		2CA0B29C1822588F0018A9FC /* BBBaseOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B29B1822588F0018A9FC /* BBBaseOperator.m */; };
+		2CA0B29F182258AC0018A9FC /* BBBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B29E182258AC0018A9FC /* BBBaseObject.m */; };
+		2CA0B2A418225E8B0018A9FC /* BBNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B2A318225E8B0018A9FC /* BBNumber.m */; };
+		2CA0B2A7182261A60018A9FC /* BBMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B2A6182261A60018A9FC /* BBMultiply.m */; };
+		2CA0B2AA1822627D0018A9FC /* BBDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B2A91822627D0018A9FC /* BBDivide.m */; };
+		2CA0B2AD182264780018A9FC /* BBBracket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B2AC182264780018A9FC /* BBBracket.m */; };
+		2CA0B2B0182267440018A9FC /* BBPlusMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0B2AF182267440018A9FC /* BBPlusMinus.m */; };
 		2CAD23051821163D0097C250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD23041821163D0097C250 /* Foundation.framework */; };
 		2CAD23071821163D0097C250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD23061821163D0097C250 /* CoreGraphics.framework */; };
 		2CAD23091821163D0097C250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD23081821163D0097C250 /* UIKit.framework */; };
@@ -35,6 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CA0B297182255660018A9FC /* BBExprKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBExprKernel.h; sourceTree = "<group>"; };
+		2CA0B298182255660018A9FC /* BBExprKernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBExprKernel.m; sourceTree = "<group>"; };
+		2CA0B29A1822588F0018A9FC /* BBBaseOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBaseOperator.h; sourceTree = "<group>"; };
+		2CA0B29B1822588F0018A9FC /* BBBaseOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBaseOperator.m; sourceTree = "<group>"; };
+		2CA0B29D182258AC0018A9FC /* BBBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBaseObject.h; sourceTree = "<group>"; };
+		2CA0B29E182258AC0018A9FC /* BBBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBaseObject.m; sourceTree = "<group>"; };
+		2CA0B2A218225E8B0018A9FC /* BBNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBNumber.h; sourceTree = "<group>"; };
+		2CA0B2A318225E8B0018A9FC /* BBNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBNumber.m; sourceTree = "<group>"; };
+		2CA0B2A5182261A60018A9FC /* BBMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMultiply.h; sourceTree = "<group>"; };
+		2CA0B2A6182261A60018A9FC /* BBMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMultiply.m; sourceTree = "<group>"; };
+		2CA0B2A81822627D0018A9FC /* BBDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDivide.h; sourceTree = "<group>"; };
+		2CA0B2A91822627D0018A9FC /* BBDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDivide.m; sourceTree = "<group>"; };
+		2CA0B2AB182264780018A9FC /* BBBracket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBracket.h; sourceTree = "<group>"; };
+		2CA0B2AC182264780018A9FC /* BBBracket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBracket.m; sourceTree = "<group>"; };
+		2CA0B2AE182267440018A9FC /* BBPlusMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPlusMinus.h; sourceTree = "<group>"; };
+		2CA0B2AF182267440018A9FC /* BBPlusMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPlusMinus.m; sourceTree = "<group>"; };
 		2CAD23011821163D0097C250 /* ExprCalc-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExprCalc-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAD23041821163D0097C250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CAD23061821163D0097C250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +105,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA0B296182255460018A9FC /* ExprCalc */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0B297182255660018A9FC /* BBExprKernel.h */,
+				2CA0B298182255660018A9FC /* BBExprKernel.m */,
+				2CA0B2A0182258BF0018A9FC /* Operators */,
+				2CA0B2A1182258C60018A9FC /* Objects */,
+			);
+			name = ExprCalc;
+			sourceTree = "<group>";
+		};
+		2CA0B2A0182258BF0018A9FC /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0B29A1822588F0018A9FC /* BBBaseOperator.h */,
+				2CA0B29B1822588F0018A9FC /* BBBaseOperator.m */,
+				2CA0B2A5182261A60018A9FC /* BBMultiply.h */,
+				2CA0B2A6182261A60018A9FC /* BBMultiply.m */,
+				2CA0B2A81822627D0018A9FC /* BBDivide.h */,
+				2CA0B2A91822627D0018A9FC /* BBDivide.m */,
+				2CA0B2AB182264780018A9FC /* BBBracket.h */,
+				2CA0B2AC182264780018A9FC /* BBBracket.m */,
+				2CA0B2AE182267440018A9FC /* BBPlusMinus.h */,
+				2CA0B2AF182267440018A9FC /* BBPlusMinus.m */,
+			);
+			name = Operators;
+			sourceTree = "<group>";
+		};
+		2CA0B2A1182258C60018A9FC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0B29D182258AC0018A9FC /* BBBaseObject.h */,
+				2CA0B29E182258AC0018A9FC /* BBBaseObject.m */,
+				2CA0B2A218225E8B0018A9FC /* BBNumber.h */,
+				2CA0B2A318225E8B0018A9FC /* BBNumber.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		2CAD22F81821163D0097C250 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +177,7 @@
 		2CAD230A1821163D0097C250 /* ExprCalc-Objc */ = {
 			isa = PBXGroup;
 			children = (
+				2CA0B296182255460018A9FC /* ExprCalc */,
 				2CAD23131821163D0097C250 /* BBAppDelegate.h */,
 				2CAD23141821163D0097C250 /* BBAppDelegate.m */,
 				2CAD23161821163D0097C250 /* Main_iPhone.storyboard */,
@@ -255,7 +319,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAD231E1821163D0097C250 /* BBViewController.m in Sources */,
+				2CA0B299182255660018A9FC /* BBExprKernel.m in Sources */,
+				2CA0B2B0182267440018A9FC /* BBPlusMinus.m in Sources */,
 				2CAD23151821163D0097C250 /* BBAppDelegate.m in Sources */,
+				2CA0B2A7182261A60018A9FC /* BBMultiply.m in Sources */,
+				2CA0B29F182258AC0018A9FC /* BBBaseObject.m in Sources */,
+				2CA0B2A418225E8B0018A9FC /* BBNumber.m in Sources */,
+				2CA0B2AA1822627D0018A9FC /* BBDivide.m in Sources */,
+				2CA0B29C1822588F0018A9FC /* BBBaseOperator.m in Sources */,
+				2CA0B2AD182264780018A9FC /* BBBracket.m in Sources */,
 				2CAD23111821163D0097C250 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +547,7 @@
 				2CAD23381821163D0097C250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CAD23391821163D0097C250 /* Build configuration list for PBXNativeTarget "ExprCalc-ObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +556,7 @@
 				2CAD233B1821163D0097C250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
